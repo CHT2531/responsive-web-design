@@ -28,7 +28,7 @@
   * Refresh the page in a browse and test this works
 * Now think about how the layout might change when the screen size is wider
   * Use the CSS flexbox to try and create a two columned design.
-* At some point when the screen size is really wide (greater than about 900px) we don't want the design to re-size any further. create another breakpoint so that when the screen size is bigger than 900px the design doesn't get any bigger.
+* At some point when the screen size is really wide (greater than about 900px) we don't want the design to re-size any further. Create another breakpoint so that when the screen size is bigger than 900px the design doesn't get any bigger.
 * Now turn your attention to the image.
   * You might find that at some points it overlaps other page elements. Have a look at using the *max-width* property to see if you can make the image stay within it's container.
   * It would be good if the image was centred when in a single columned design. Add some CSS so that image always sits in the centre of the design.
