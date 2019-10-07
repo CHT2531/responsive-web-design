@@ -2,7 +2,7 @@
 
 * Download the repository.
 * Unzip the files, open the HTML page in a text editor and in a web browser.
-* Make sure you use responsive design mode.
+* Make sure you are using responsive design mode in the browser.
 * Apply some basic CSS e.g. simple typography, colours etc. A couple of rules is fine.
 * Put an outline around each of the different content blocks:
     * holder
@@ -30,6 +30,6 @@
   * Use the CSS flexbox to try and create a two columned design.
 * At some point when the screen size is really wide (greater than about 900px) we don't want the design to re-size any further. create another breakpoint so that when the screen size is bigger than 900px the design doesn't get any bigger.
 * Now turn your attention to the image.
-  * You might find that at some points it overlaps other page elements. Have a look at the *max-width* property to see if you can make the image stay within it's container.
+  * You might find that at some points it overlaps other page elements. Have a look at using the *max-width* property to see if you can make the image stay within it's container.
   * It would be good if the image was centred when in a single columned design. Add some CSS so that image always sits in the centre of the design.
   * If you look in the images folder, you should be able to find a larger version of the Northumberland Street image. have a look at using the *picture* element to use the larger image when in the two-columned layout.
