@@ -3,6 +3,10 @@
 <head>
 <title>Huddersfield</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="(min-width:572px)" href="css/style-wide.css">
+<link rel="stylesheet" media="(min-width:900px)" href="css/style-really-wide.css">
 </head>
 <body>
 
@@ -12,7 +16,11 @@
 <div class="holder" >
       <div class="img_holder">
         <a title="Betty Longbottom / Northumberland Street - John William Street, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Northumberland_Street_-_John_William_Street_-_geograph.org.uk_-_1703716.jpg">
-          <img class="main_img" src="images/northumberland_street_small.jpg" alt="Northumberland Street, Huddersfield">
+          <!-- <img class="main_img" src="images/northumberland_street_small.jpg" alt="Northumberland Street, Huddersfield"> -->
+          <picture >
+        <source  class="main_img" srcset="images/northumberland_street.jpg" media="(min-width: 700px)">
+        <img class="main_img" src="images/northumberland_street_small.jpg" alt="Northumberland Street, Huddersfield">
+        </picture>
         </a>
       </div>
       <div class="intro">
@@ -24,8 +32,10 @@
         <p>
         Huddersfield is home to rugby league team Huddersfield Giants, founded in 1895, who play in the Super League, and Championship football team Huddersfield Town A.F.C., founded in 1908. The town is home to the University of Huddersfield and the sixth form colleges Greenhead College, Kirklees College and Huddersfield New College.
       </p>
+
       <p>
         Huddersfield is a town of Victorian architecture. Huddersfield railway station is a Grade I listed building described by John Betjeman as "the most splendid station façade in England", second only to St Pancras, London. The station in St George's Square was renovated at a cost of £4 million and subsequently won the Europa Nostra award for European architecture.
+
       </p>
       </div>
       <div class="industry">
@@ -55,5 +65,7 @@
         </ul>
       </div>
     </div>
+
+
 </body>
 </html>

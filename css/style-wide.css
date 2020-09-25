@@ -1,0 +1,10 @@
+.holder{
+  display:flex;
+  flex-flow: row wrap;
+}
+.img_holder, .intro, .industry, .sport{
+  width:50%;
+}
+.famous-people{
+  width:100%;
+}

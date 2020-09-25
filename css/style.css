@@ -1,0 +1,21 @@
+body{
+  background-color:#29375b;
+  color:#eee;
+  font-family:Arial, sans-serif;
+  line-height:1.2em;
+
+}
+.img_holder, .intro, .industry, .sport, .famous-people{
+  box-sizing: border-box;
+  padding:2%;
+  outline:1px solid black;
+}
+.main_img{
+  max-width:100%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.header{
+  text-align:center;
+}
