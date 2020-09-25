@@ -11,7 +11,8 @@
     * industry
     * sport
     * famous-people
-* Add some padding to each block.
+* Add some padding to each block. It's probably a good idea to also change the ```box-sizing``` to be ```border-box```. This tells the browser to include padding and borders in the width of elements. See https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing for more info.
+
 * Add a viewport meta tag to the head of document.
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1">
